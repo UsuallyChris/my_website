@@ -1,3 +1,15 @@
+/*
+
+COLORS:
+  #344E5C dark
+  #4AB19D teal
+  #EFC958 yellow
+  #E17A47 orange
+  #EF3D59 red
+
+*/
+
+
 .main-container {
   display: flex;
 }
@@ -11,7 +23,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  background: #000;
+  background: #344E5C;
   color: #fff;
 }
 
@@ -25,5 +37,10 @@
 }
 
 .right-container * {
-  height: 100vh;
+  height: 50vh;
+}
+
+.header {
+  background: #4AB19D;
+  color: #fff;
 }
