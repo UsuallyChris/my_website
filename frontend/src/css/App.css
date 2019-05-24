@@ -37,7 +37,7 @@ COLORS:
 }
 
 .right-container * {
-  height: 50vh;
+  min-height: 50vh;
 }
 
 .header {
