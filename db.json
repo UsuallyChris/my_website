@@ -1,0 +1,17 @@
+{
+  "projects": [
+    {"id": 1, "title": "Project 1 Title", "liveURL": "LiveURL", "codeURL": "CodeURL", "pic": ""},
+    {"id": 2, "title": "Project 2 Title", "liveURL": "LiveURL", "codeURL": "CodeURL", "pic": ""},
+    {"id": 3, "title": "Project 3 Title", "liveURL": "LiveURL", "codeURL": "CodeURL", "pic": ""}
+  ],
+
+  "skills": [
+    {"id": 1, "name": "Skill 1", "type": "base"},
+    {"id": 2, "name": "Skill 2", "type": "base"},
+    {"id": 3, "name": "Skill 3", "type": "base"},
+    {"id": 4, "name": "Skill 4", "type": "base"},
+    {"id": 5, "name": "Skill 5", "type": "working"},
+    {"id": 6, "name": "Skill 6", "type": "working"},
+    {"id": 7, "name": "Skill 7", "type": "working"}
+  ]
+}
