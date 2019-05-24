@@ -9,7 +9,7 @@ import Contact from './Contact';
 class RightContainer extends Component {
   render() {
     return (
-      <div>
+      <div className="right-container">
         <h1>Right Side</h1>
         <AboutMe />
         <Projects />

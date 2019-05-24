@@ -6,7 +6,7 @@ import RightContainer from './components/right/RightContainer';
 
 function App() {
   return (
-    <div>
+    <div className="main-container">
       <LeftMain />
       <RightContainer />
     </div>
