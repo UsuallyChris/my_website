@@ -9,6 +9,17 @@ COLORS:
 
 */
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* GLOBALS */
+
+
+/* MAIN VIEW FORMATTING */
 
 .main-container {
   display: flex;
@@ -36,11 +47,20 @@ COLORS:
   transform: translateX(100%);
 }
 
-.right-container * {
-  min-height: 50vh;
-}
+/* LEFT SIDE FORMATTING AND STYLES */
+
+
+/* RIGHT SIDE FORMATTING AND STYLES */
 
 .header {
+  height: 50vh;
   background: #4AB19D;
   color: #fff;
+}
+
+.content-container {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
