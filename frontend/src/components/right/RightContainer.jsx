@@ -5,7 +5,6 @@ import Header from './Header';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
 import Skills from './Skills';
-import Contact from './Contact';
 
 class RightContainer extends Component {
   render() {
@@ -15,7 +14,6 @@ class RightContainer extends Component {
         <AboutMe />
         <Projects />
         <Skills />
-        <Contact />
       </div>
     )
   }
