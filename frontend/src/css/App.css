@@ -77,8 +77,17 @@ ol {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 40px 30px;
 }
 
 .skills-list {
   display: flex;
+}
+
+.projects {
+  background: #f4f3f3;
+}
+
+.project-card {
+  background: #fff;
 }
