@@ -1,8 +1,8 @@
 {
   "projects": [
-    {"id": 1, "title": "Project 1 Title", "liveURL": "LiveURL", "codeURL": "CodeURL", "pic": ""},
-    {"id": 2, "title": "Project 2 Title", "liveURL": "LiveURL", "codeURL": "CodeURL", "pic": ""},
-    {"id": 3, "title": "Project 3 Title", "liveURL": "LiveURL", "codeURL": "CodeURL", "pic": ""}
+    {"id": 1, "title": "Project 1 Title", "liveURL": "LiveURL", "codeURL": "CodeURL", "description": "description"},
+    {"id": 2, "title": "Project 2 Title", "liveURL": "LiveURL", "codeURL": "CodeURL", "description": "description"},
+    {"id": 3, "title": "Project 3 Title", "liveURL": "LiveURL", "codeURL": "CodeURL", "description": "description"}
   ],
 
   "skills": [
