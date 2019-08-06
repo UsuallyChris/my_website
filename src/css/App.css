@@ -46,7 +46,8 @@ h6 {
   position: fixed;
   top: 0;
   left: 0;
-  background: #344E5C;
+  background-color: #344E5C;
+  background-image: url('../resources/argyle.png');
   color: #fff;
 }
 
