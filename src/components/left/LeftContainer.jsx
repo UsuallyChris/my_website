@@ -8,10 +8,10 @@ class LeftContainer extends Component {
     return (
       <div className="left-container">
         <div className="tag">
-          <h1>Hello, I'm Chris Schoonover.</h1>
+          <h1>Hello, I'm <span className="tag-highlight">Chris Schoonover</span>.</h1>
           <h1>I'm a developer based in San Diego.</h1>
         </div>
-        <div className="nav-container">
+        <div className="nav-wrapper">
           <Nav />
           <h2>Resume</h2>
         </div>
