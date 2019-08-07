@@ -4,7 +4,8 @@ class AboutMe extends Component {
   render() {
     return (
       <div className="content-container">
-        <h1>About Me</h1>
+        <h1>ABOUT</h1>
+        <hr/>
       </div>
     )
   }
