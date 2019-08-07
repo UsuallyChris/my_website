@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-// component imports
+// Component Imports
+import Nav from './Nav';
 
-
-class RightContainer extends Component {
-  render() {
-    return (
-      <div className="right-container">
-        
-      </div>
-    )
-  }
+function RightContainer(props) {
+  return (
+    <div className="right-container">
+      <Nav />
+      {props.children}
+    </div>
+  )
 }
 
 export default RightContainer;
