@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 // Component Imports
 import Nav from './Nav';
+import { Link } from 'react-router-dom';
 
 class LeftContainer extends Component {
   render() {
@@ -13,7 +14,7 @@ class LeftContainer extends Component {
         </div>
         <div className="nav-wrapper">
           <Nav />
-          <h2>Resume</h2>
+          <Link>Resume</Link>
         </div>
         <div className="socials-wrapper">
           <p>GitHub</p>
