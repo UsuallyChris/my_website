@@ -131,7 +131,7 @@ h6 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 65%;
+  width: 75%;
   height: 10%;
 }
 
@@ -142,8 +142,14 @@ h6 {
   width: 100%;
 }
 
-.socials-icon p {
-  width: 20%;
+.icons-wrapper {
+  display: flex;
+  align-items: center;
+  height: 2em;
+}
+
+.icons {
+  font-size: 2em;
 }
 
 .socials-header {
