@@ -4,8 +4,8 @@ import './css/App.css';
 
 // Component Imports
 import MainContainer from './components/MainContainer';
-import AboutMe from './components/right/AboutMe';
-import Projects from './components/right/Projects';
+import AboutMe from './components/right/about/AboutMe';
+import Projects from './components/right/projects/Projects';
 
 // React Router Imports
 import { BrowserRouter, Switch, Route } from 'react-router-dom';

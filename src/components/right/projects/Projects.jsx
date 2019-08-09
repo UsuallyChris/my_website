@@ -2,7 +2,7 @@ import React from 'react';
 
 function Projects() {
   return (
-    <div className="content-container">
+    <div className="page-container">
       <h1>PROJECTS</h1>
       <hr/>
     </div>
