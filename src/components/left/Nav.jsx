@@ -6,8 +6,8 @@ import { NavLink } from 'react-router-dom';
 function Nav() {
   return(
     <div className="nav-container">
-      <NavLink exact={true} to='/'>About</NavLink>
-      <NavLink to='/projects'>Projects</NavLink>
+      <NavLink exact={true} activeClassName="is-active" to='/'>About</NavLink>
+      <NavLink activeClassName="is-active" to='/projects'>Projects</NavLink>
     </div>
   );
 }
