@@ -54,7 +54,8 @@ h6 {
 .right-container {
   display: flex;
   flex-direction: column;
-  height: auto;
+  height: 100vh;
+  min-height: auto;
   width: 50vw;
   transform: translateX(100%);
   color: #344E5C;
