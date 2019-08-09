@@ -14,7 +14,7 @@ class LeftContainer extends Component {
     return (
       <div className="left-container">
         <div className="tag">
-          <h1>Hi! My name is <span className="tag-highlight">Chris Schoonover</span>.</h1>
+          <h1>Hi there! My name is <span className="tag-highlight">Chris Schoonover</span>.</h1>
           <h1>I build stuff for the web.</h1>
         </div>
         <div className="nav-wrapper">
