@@ -70,7 +70,6 @@ h6 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 20%;
 }
 
 .tag h1 {
@@ -129,14 +128,40 @@ h6 {
 
 .socials-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   width: 60%;
   height: 10%;
 }
 
-.socials-wrapper p {
-  color: #fff;
+.socials-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.socials-icon p {
+  width: 20%;
+}
+
+.socials-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  position: relative;
+}
+
+.socials-header h3 {
+  margin: 0;
+}
+
+.socials-header hr {
+  width: 100%;
+  border-bottom: 2px solid #4AB19D;
 }
 
 /* RIGHT SIDE FORMATTING AND STYLES */

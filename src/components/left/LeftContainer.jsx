@@ -14,12 +14,18 @@ class LeftContainer extends Component {
         </div>
         <div className="nav-wrapper">
           <Nav />
-          <Link>Resume</Link>
+          <Link to="#">Resume</Link>
         </div>
         <div className="socials-wrapper">
-          <p>GitHub</p>
-          <p>Twitter</p>
-          <p>Email</p>
+          <div className="socials-header">
+            <h3>Contact Me:</h3>
+            <hr/>
+          </div>
+          <div className="socials-icons">
+            <p>GitHub</p>
+            <p>Twitter</p>
+            <p>Email</p>
+          </div>
         </div>
       </div>
     )
