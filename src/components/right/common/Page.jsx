@@ -5,7 +5,9 @@ function Page(props) {
     <div className="page-container">
       <h1>{props.title}</h1>
       <hr/>
-      {props.children}
+      <div className="content-container">
+        {props.children}
+      </div>
     </div>
   )
 }
