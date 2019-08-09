@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 
+// Component Imports
+import Page from '../common/Page';
+
 class AboutMe extends Component {
   render() {
     return (
-      <div className="page-container">
-        <h1>ABOUT</h1>
-        <hr/>
-      </div>
+      <Page title="ABOUT">
+        
+      </Page>
     )
   }
 }

@@ -1,11 +1,13 @@
 import React from 'react';
 
+// Component Imports
+import Page from '../common/Page';
+
 function Projects() {
   return (
-    <div className="page-container">
-      <h1>PROJECTS</h1>
-      <hr/>
-    </div>
+    <Page title="PROJECTS">
+
+    </Page>
   )
 }
 
