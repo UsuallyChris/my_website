@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 
 // Component Imports
 import Nav from './Nav';
-import { Link } from 'react-router-dom';
+
+// Resume Import
+import Resume from '../../resources/Resume.pdf';
 
 // Font Awesome Imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -19,7 +21,7 @@ class LeftContainer extends Component {
         </div>
         <div className="nav-wrapper">
           <Nav />
-          <Link to="#">Resume</Link>
+          <a href={Resume} target="_blank" rel="noopener noreferrer">Resume</a>
         </div>
         <div className="socials-wrapper">
           <div className="socials-header">
