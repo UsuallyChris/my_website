@@ -184,7 +184,7 @@ h6 {
   padding: 40px 30px;
 }
 
-.page-container p {
+.page-container p, ul {
   font-size: 1.25rem;
 }
 
@@ -242,4 +242,32 @@ h6 {
   z-index: -1;
   border: 2px solid #4AB19D;
   border-radius: 5px;
+}
+
+.tech-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.tech-list ul {
+  width: 50%;
+  list-style: outside none none;
+  padding: 0;
+  margin: 25px 0 0;
+}
+
+.tech-list li {
+  margin-bottom: 20px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.tech-list li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  font-size: 1.25em;
+  line-height: .9em;
+  color: #4AB19D;
 }
