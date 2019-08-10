@@ -29,14 +29,16 @@ class AboutMe extends Component {
           <hr/>
           <div className="tech-list">
             <ul>
-              <li>Test 1</li>
-              <li>Test 2</li>
-              <li>Test 3</li>
+              <li>HTML &amp; CSS</li>
+              <li>Javascript</li>
+              <li>React</li>
+              <li>Redux</li>
             </ul>
             <ul>
-              <li>Test 1</li>
-              <li>Test 2</li>
-              <li>Test 3</li>
+              <li>Express</li>
+              <li>Python</li>
+              <li>Django</li>
+              <li>MongoDB</li>
             </ul>
           </div>
         </div>
