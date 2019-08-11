@@ -3,13 +3,10 @@ import React from 'react';
 function ProjectCard(props) {
   return (
     <div className="project-card">
-      <h3>{props.title}</h3>
+      <h2>{props.title}</h2>
       <hr/>
-      <p>{props.description}</p>
-      <hr/>
-      <div className="project-urls">
-        <a href={props.codeURL}>GitHub</a>
-        <a href={props.liveURL}>Live</a>
+      <div>
+        <p>{props.description}</p>
       </div>
     </div>
   );
