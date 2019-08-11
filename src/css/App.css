@@ -271,3 +271,8 @@ h6 {
   line-height: .9em;
   color: #4AB19D;
 }
+
+.project-img {
+  width: 450px;
+  height: auto;
+}
