@@ -338,3 +338,22 @@ h6 {
 .tech-used {
   margin: 0;
 }
+
+.icon-links {
+  margin-top: 1em;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.project-icons {
+  text-decoration: none;
+  color: #344E5C;
+  font-size: 2em;
+  margin-left: 32px;
+  transition: all .25s ease-in-out;
+}
+
+.project-icons:hover {
+  color: #4AB19D;
+}
