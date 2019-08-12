@@ -8,7 +8,8 @@ import AboutMe from './components/right/about/AboutMe';
 import Projects from './components/right/projects/Projects';
 
 // Mobile Component Imports
-import MobileContainer from './components/MobileContainer';
+import MobileContainer from './components/mobile/MobileContainer';
+import MobileLanding from './components/mobile/MobileLanding';
 
 // React Router Imports
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
@@ -41,7 +42,11 @@ class App extends Component {
       return(
         <BrowserRouter>
           <MobileContainer>
-            <h1>Testing</h1>
+            <Switch>
+              <Route exact path='/' component={MobileLanding} />
+              <Route path='/about' component={AboutMe} />
+              <Route path='/projects' component={Projects} />
+            </Switch>
           </MobileContainer>
         </BrowserRouter>
       )

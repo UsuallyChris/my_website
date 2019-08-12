@@ -438,3 +438,10 @@ h6 {
   margin: 0;
   padding: 0;
 }
+
+@media only screen and (max-width: 1300px) {
+  .left-container {
+    width: 100%;
+    height: 100%;
+  }
+}
