@@ -393,3 +393,41 @@ h6 {
 .project-icons-right:hover {
   color: #4AB19D;
 }
+
+/** MOBILE STYLES */
+@media only screen and (max-width: 1600px) {
+  .nav-wrapper a {
+    font-size: 1.35em;
+    padding: 24px 36px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .profile {
+    width: 175px;
+  }
+
+  .profile-container::after {
+    width: 175px;
+    height: 233px;
+  }
+
+  .socials-icons {
+    flex-direction: column;
+  }
+
+  .icons {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .content-container {
+    width: 90%;
+  }
+
+  .nav-wrapper a {
+    font-size: 1.2em;
+    padding: 24px 0px;
+  }
+}
