@@ -15,13 +15,15 @@ function Projects() {
         title="Personal Finance App"
         img={Bills}
         alt="Personal Finance App Screenshot"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laudantium doloremque recusandae dignissimos expedita exercitationem quo, eaque sequi, libero porro sunt sit."
+        description="A web app for visualizing your finances and spending."
+        tech="React&nbsp;&nbsp;Redux&nbsp;&nbsp;Express&nbsp;&nbsp;MongoDB"
       />
       <ProjectCard 
         title="Job Application Tracker"
         img={Jobs}
         alt="Job Application Tracker Screenshot"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laudantium doloremque recusandae dignissimos expedita exercitationem quo, eaque sequi, libero porro sunt sit."
+        description="An easy way to track your job search."
+        tech="React&nbsp;&nbsp;Redux&nbsp;&nbsp;Django"
       />
     </Page>
   )

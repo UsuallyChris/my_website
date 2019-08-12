@@ -10,6 +10,7 @@ function ProjectCard(props) {
         <div className="project-description">
           <h2>{props.title}</h2>
           <p className="details-p">{props.description}</p>
+          <p className="tech-used">{props.tech}</p>
         </div>
       </div>
     </div>
