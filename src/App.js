@@ -10,6 +10,8 @@ import Projects from './components/right/projects/Projects';
 // Mobile Component Imports
 import MobileContainer from './components/mobile/MobileContainer';
 import MobileLanding from './components/mobile/MobileLanding';
+import MobileAboutMe from './components/mobile/MobileAboutMe';
+import MobileProjects from './components/mobile/MobileProjects';
 
 // React Router Imports
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
@@ -38,14 +40,14 @@ class App extends Component {
 
     const { width } = this.state;
 
-    if(width < 1300) {
+    if(width < 1301) {
       return(
         <BrowserRouter>
           <MobileContainer>
             <Switch>
               <Route exact path='/' component={MobileLanding} />
-              <Route path='/about' component={AboutMe} />
-              <Route path='/projects' component={Projects} />
+              <Route path='/about' component={MobileAboutMe} />
+              <Route path='/projects' component={MobileProjects} />
             </Switch>
           </MobileContainer>
         </BrowserRouter>

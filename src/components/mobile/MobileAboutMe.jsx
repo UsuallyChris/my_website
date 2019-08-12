@@ -1,0 +1,50 @@
+import React, { Component } from 'react';
+
+// Component Imports
+import MobilePage from './MobilePage';
+
+// Image Import
+import profile from '../../resources/profile.jpg';
+
+class AboutMe extends Component {
+  render() {
+    return (
+      <MobilePage title="ABOUT">
+        <div>
+          <h2>Who, me?</h2>
+          <hr/>
+          <div className="about-wrapper">
+            <div className="about-text">
+              <p>Hello! I'm Chris, a software engineer based in San Diego, CA who enjoys building things that find their home on the internet.</p>
+              <p>I recently graduated from San Diego State University and am currently looking for work in the San Diego area. I am open to remote positions.</p>
+              <p>Shoot me an email, message me on Twitter, or send me a smoke signal. Let's connect.</p>
+            </div>
+            <div className="profile-container">
+              <img className="profile" src={profile} alt=""/>
+            </div>  
+          </div>
+        </div>
+        <div>
+          <h2>Technologies I've worked with lately:</h2>
+          <hr/>
+          <div className="tech-list">
+            <ul>
+              <li>HTML &amp; CSS</li>
+              <li>Javascript</li>
+              <li>React</li>
+              <li>Redux</li>
+            </ul>
+            <ul>
+              <li>Express</li>
+              <li>Python</li>
+              <li>Django</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+        </div>
+      </MobilePage>
+    )
+  }
+}
+
+export default AboutMe;
