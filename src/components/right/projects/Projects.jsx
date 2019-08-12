@@ -15,13 +15,13 @@ function Projects() {
         title="Personal Finance App"
         img={Bills}
         alt="Personal Finance App Screenshot"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laudantium doloremque recusandae dignissimos expedita exercitationem quo, eaque sequi, libero porro sunt sit. Deleniti a in perspiciatis tempore amet adipisci laudantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laudantium doloremque recusandae dignissimos expedita exercitationem quo, eaque sequi, libero porro sunt sit. Deleniti a in perspiciatis tempore amet adipisci laudantium?"
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laudantium doloremque recusandae dignissimos expedita exercitationem quo, eaque sequi, libero porro sunt sit."
       />
       <ProjectCard 
         title="Job Application Tracker"
         img={Jobs}
         alt="Job Application Tracker Screenshot"
-        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laudantium doloremque recusandae dignissimos expedita exercitationem quo, eaque sequi, libero porro sunt sit. Deleniti a in perspiciatis tempore amet adipisci laudantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laudantium doloremque recusandae dignissimos expedita exercitationem quo, eaque sequi, libero porro sunt sit. Deleniti a in perspiciatis tempore amet adipisci laudantium?"
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laudantium doloremque recusandae dignissimos expedita exercitationem quo, eaque sequi, libero porro sunt sit."
       />
     </Page>
   )

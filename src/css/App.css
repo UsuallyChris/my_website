@@ -272,9 +272,20 @@ h6 {
   color: #4AB19D;
 }
 
+.project-card {
+  width: 100%;
+}
+
+.project-details {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .project-img-wrapper {
-  width: 450px;
-  height: 253px;
+  width: 50%;
+  height: 100%;
   position: relative;
   border-radius: 5px;
 }
@@ -301,4 +312,24 @@ h6 {
   height: 100%;
   z-index: 1;
   border-radius: 5px;
+}
+
+.project-description {
+  width: 50%;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  justify-content: center;
+  text-align: right;
+}
+
+.project-description h2 {
+  margin: 0;
+}
+
+.details-p {
+  background-color: #344E5C;
+  margin-left: -40%;
+  color: #fff;
 }
