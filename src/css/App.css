@@ -431,3 +431,10 @@ h6 {
     padding: 24px 0px;
   }
 }
+
+.mobile-container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}

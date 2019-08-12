@@ -7,6 +7,9 @@ import MainContainer from './components/MainContainer';
 import AboutMe from './components/right/about/AboutMe';
 import Projects from './components/right/projects/Projects';
 
+// Mobile Component Imports
+import MobileContainer from './components/MobileContainer';
+
 // React Router Imports
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
@@ -36,7 +39,11 @@ class App extends Component {
 
     if(width < 1300) {
       return(
-        <h1>TEST</h1>
+        <BrowserRouter>
+          <MobileContainer>
+            <h1>Testing</h1>
+          </MobileContainer>
+        </BrowserRouter>
       )
     } else {
       return (
