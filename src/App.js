@@ -40,7 +40,7 @@ class App extends Component {
 
     const { width } = this.state;
 
-    if(width < 1301) {
+    if(width <= 1300) {
       return(
         <BrowserRouter>
           <MobileContainer>

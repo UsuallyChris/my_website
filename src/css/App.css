@@ -498,18 +498,39 @@ h6 {
 }
 
 @media only screen and (max-width: 600px) {
+  .content-container {
+    display: block;
+  }
+
   .about-wrapper {
     align-items: center;
+  }
+
+  .project-details {
+    display: block;
+    margin-bottom: 48px;
+  }
+
+  .project-img-wrapper {
+    width: 80%;
+    margin: 24px auto;
+  }
+
+  .project-description,
+  .project-description-right {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .details-p {
+    margin-left: 0;
+    font-size: 1.1em; 
   }
 }
 
 @media only screen and (max-width: 500px) {
   .about-wrapper {
     flex-direction: column;
-  }
-
-  .content-container {
-    display: block;
   }
 
   .about-wrapper {
@@ -519,5 +540,9 @@ h6 {
   .about-text {
     width: 100%;
     margin-bottom: 24px;
+  }
+
+  .project-img-wrapper {
+    width: 100%;
   }
 }
