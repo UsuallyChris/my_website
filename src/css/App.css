@@ -272,6 +272,7 @@ h6 {
 
 .project-card {
   width: 100%;
+  margin-bottom: 24px;
 }
 
 .project-details {
@@ -493,7 +494,19 @@ h6 {
   }
 
   .tech-list {
-    margin-bottom: 12px;
+    margin-bottom: 36px;
+  }
+
+  .nav-wrapper a {
+    width: 60%;
+  }
+
+  .nav-container {
+    flex-direction: column;
+  }
+
+  .nav-container a {
+    margin-bottom: 24px;
   }
 }
 
@@ -526,6 +539,10 @@ h6 {
     margin-left: 0;
     font-size: 1.1em; 
   }
+
+  .tag h1 {
+    font-size: 1.75em;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -544,5 +561,34 @@ h6 {
 
   .project-img-wrapper {
     width: 100%;
+  }
+
+  .tag h1 {
+    font-size: 1.25em;
+  }
+}
+
+@media only screen and (max-height: 800px) {
+  .content-container {
+    display: block;
+    margin: 24px auto;
+  }
+
+  .nav-container {
+    flex-direction: column;
+  }
+
+  .nav-container a {
+    margin-bottom: 24px;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .tag {
+    margin-top: -32px;
+  }
+
+  .nav-wrapper {
+    margin-top: -32px;
   }
 }
