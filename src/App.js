@@ -14,7 +14,7 @@ import MobileAboutMe from './components/mobile/MobileAboutMe';
 import MobileProjects from './components/mobile/MobileProjects';
 
 // React Router Imports
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 
 class App extends Component {
   constructor(props) {
@@ -42,7 +42,7 @@ class App extends Component {
 
     if(width <= 1300) {
       return(
-        <BrowserRouter>
+        <HashRouter>
           <MobileContainer>
             <Switch>
               <Route exact path='/' component={MobileLanding} />
@@ -50,11 +50,11 @@ class App extends Component {
               <Route path='/projects' component={MobileProjects} />
             </Switch>
           </MobileContainer>
-        </BrowserRouter>
+        </HashRouter>
       )
     } else {
       return (
-        <BrowserRouter>
+        <HashRouter>
           <MainContainer>
             <Switch>
               <Route exact path='/' component={AboutMe} />
@@ -62,7 +62,7 @@ class App extends Component {
               <Route path='/projects' component={Projects} />
             </Switch>
           </MainContainer>
-        </BrowserRouter>
+        </HashRouter>
       );
     }
   }
