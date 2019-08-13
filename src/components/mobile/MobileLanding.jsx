@@ -22,7 +22,7 @@ class LeftContainer extends Component {
         </div>
         <div className="nav-wrapper">
           <MobileNav />
-          <a href={Resume} target="_blank" rel="noopener noreferrer">Resume</a>
+          <a href={Resume} className="mobile-links" target="_blank" rel="noopener noreferrer">Resume</a>
         </div>
         <div className="socials-wrapper">
           <div className="socials-header">
