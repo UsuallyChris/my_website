@@ -1,5 +1,7 @@
 import React from 'react';
 
+import MobileMenu from './MobileMenu';
+
 function Page(props) {
   return(
     <div className="mobile-page-container">
@@ -8,6 +10,7 @@ function Page(props) {
       <div className="content-container">
         {props.children}
       </div>
+      <MobileMenu />
     </div>
   )
 }
