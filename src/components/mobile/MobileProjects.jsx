@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import MobilePage from './MobilePage';
 import ProjectCardLeft from '../right/projects/ProjectCardLeft';
 import ProjectCardRight from '../right/projects/ProjectCardRight';
+import MobileProjectCardLeft from './MobileProjectCardLeft';
 import MobileProjectCardRight from './MobileProjectCardRight';
 
 // Image Imports
@@ -34,10 +35,10 @@ class Projects extends Component {
 
     const { width } = this.state;
 
-    if(width <= 600) {
+    if(width < 800) {
       return (
         <MobilePage title="PROJECTS">
-          <ProjectCardLeft 
+          <MobileProjectCardLeft 
             title="Personal Finance App"
             img={Bills}
             alt="Personal Finance App Screenshot"

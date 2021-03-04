@@ -16,7 +16,7 @@ class AboutMe extends Component {
           <div className="about-wrapper">
             <div className="about-text">
               <p>Hello! I'm Chris, a software engineer based in San Diego, CA who enjoys building things that find their home on the internet.</p>
-              <p>I recently graduated from San Diego State University and am currently looking for work in the San Diego area. I am open to remote positions.</p>
+              <p>I do most of my work in the MERN stack using GraphQL and I'm constantly learning new technologies to add to my toolset.</p>
               <p>Shoot me an email, message me on Twitter, or send me a smoke signal. Let's connect.</p>
             </div>
             <div className="profile-container">

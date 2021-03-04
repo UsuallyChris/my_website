@@ -525,6 +525,7 @@ h6 {
   }
 
   .project-img-wrapper {
+    height: 100%;
     width: 80%;
     margin: 24px auto;
   }
@@ -560,6 +561,7 @@ h6 {
   }
 
   .project-img-wrapper {
+    height: 100%;
     width: 100%;
   }
 
