@@ -18,9 +18,9 @@ function ProjectCard(props) {
             <a href={props.live_url} className="project-icons-right" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faExternalLinkSquareAlt}/></a>
           </div>
         </div>
-        <div className="project-img-wrapper">
+        <a href={props.live_url} target="_blank" rel="noopener noreferrer" className="project-img-wrapper">
           <img className="project-img" src={props.img} alt={props.alt}/>
-        </div>
+        </a>
       </div>
     </div>
   );

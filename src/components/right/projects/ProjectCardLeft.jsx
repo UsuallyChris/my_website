@@ -9,9 +9,9 @@ function ProjectCard(props) {
   return (
     <div className="project-card">
       <div className="project-details">
-        <div className="project-img-wrapper">
+        <a href={props.live_url} target="_blank" rel="noopener noreferrer" className="project-img-wrapper">
           <img className="project-img" src={props.img} alt={props.alt}/>
-        </div>
+        </a>
         <div className="project-description">
           <h2>{props.title}</h2>
           <p className="details-p">{props.description}</p>
